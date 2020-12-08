@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "852242995928",
+    "firebase_url": "https://filography-7ae76.firebaseio.com",
+    "project_id": "filography-7ae76",
+    "storage_bucket": "filography-7ae76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852242995928:android:4f235ac180931aa09515ad",
+        "android_client_info": {
+          "package_name": "com.gerardoleonel.projectuts_eventorganizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852242995928-hnfqbb6rpolggp364ve4hu1s8t6gkedu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gerardoleonel.projectuts_eventorganizer",
+            "certificate_hash": "6018b8e5e6af077e11dccc2a405da83a19e9ee09"
+          }
+        },
+        {
+          "client_id": "852242995928-fbchldo1iksfce7n55bvma70tt3224bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgyV8GIETtQ690iOdq3p2GQYFRn4T34kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852242995928-fbchldo1iksfce7n55bvma70tt3224bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

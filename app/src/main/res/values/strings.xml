@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Filography</string>
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="descProfile">Filography is a mobile application for ordering photography services.
+The services provided to users are photography sessions with professional photographers in certain places, choosing a photography theme, and borrowing attributes for the shooting process. This application will make it easier for people to capture the moments in their life.</string>
+    <string name="desc">About Us</string>
+    <string name="contact">Contact</string>
+
+
+    <string name="text_have_an_account">Already have an account? Login here</string>
+    <string name="text_no_account">Do not have an account? Register here</string>
+    <string name="text_field_empty">All field must be filled</string>
+
+    <string name="text_user_is_invalid">User is invalid, please check your username or password</string>
+    <string name="text_something_error">Something went wrong, please try again later</string>
+    <string name="text_not_unique">Username already exist!</string>
+    <string name="text_password_short">Password must longer than 5 digits!</string>
+    <string name="text_email_pattern">Invalid Email Pattern</string>
+
+    <string name="text_login_success">Login success</string>
+    <string name="text_register_success">Register success, please login now</string>
+
+    <string name="text_select_event">Our Event ...</string>
+    <string name="text_select_plan">Select your plan</string>
+    <string name="text_start_from">Start From</string>
+    <string name="text_what_is_include">What\'s included</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_carousel">CarouselActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="business_filography_com">business@filography.com</string>
+    <string name="yogyakarta_indonesia">Yogyakarta, Indonesia</string>
+    <string name="show_company_location">Our Location</string>
+    <string name="about_us">About Us</string>
+    <string name="history">History</string>
+    <string name="email">Email</string>
+    <string name="nomor_hp">Nomor HP</string>
+    <string name="home">Home</string>
+    <string name="create_event">CREATE EVENT</string>
+    <string name="what_is_filography">What is Filography?</string>
+    <string name="profile">Profile</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoicmV4aW9uMjEiLCJhIjoiY2tmb3ZrejVqMDUxajJyczlwcW5sdWUwaiJ9.iVvYK8CFEUE6C7v0IW5uXw</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+    <string name="change_photo">Change Photo</string>
+
+    <!--    arya punya-->
+    <string name="search">Search All</string>
+    <string name="BirthDay">Birthday</string>
+    <string name="Wedding">Wedding</string>
+    <string name="Family">Family</string>
+    <string name="Holiday">Holiday</string>
+    <string name="Graduation">Graduation</string>
+    <string name="Baby">Baby</string>
+    <string name="Package">Package</string>
+    <string name="Location">Location</string>
+    <string name="descList">Desc</string>
+    <string name="nameListItem">Name</string>
+    <string name="member_login">MEMBER LOGIN</string>
+    <string name="filography_menu">Filography Menu</string>
+    <string name="registerText">REGISTER</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="oops">Oops!</string>
+    <string name="our_package">Our Package</string>
+    <string name="visit_this_beautiful_location">Visit this beautiful Location!</string>
+    <string name="image_error">Image Error</string>
+    <string name="we_are_developing_this_feature_please_come_back_later">We are developing this feature, please come back later!</string>
+    <string name="permission_not_granted">Permission not granted</string>
+    <string name="grant_location_permission">Grant Location Permission</string>
+    <string name="filography">Filography</string>
+    <string name="geoJsonSourceLayerId">geojsonSourceLayerId</string>
+    <string name="error">Error</string>
+    <string name="change_theme">Change Theme</string>
+
+
+    <!--    DROPDOWN-->
+    <string-array name="eventType">
+        <item>Birthday</item>
+        <item>Prewedding</item>
+        <item>Family</item>
+        <item>Graduation</item>
+        <item>Proposal</item>
+        <item>Wedding</item>
+        <item>Maternity</item>
+        <item>Newborn</item>
+        <item>Holiday</item>
+    </string-array>
+
+    <string-array name="eventPlace">
+        <item>Australia</item>
+        <item>Bali</item>
+        <item>Brazil</item>
+        <item>England</item>
+        <item>Italy</item>
+        <item>Panama</item>
+        <item>Spain</item>
+    </string-array>
+
+    <string-array name="eventPackage">
+        <item>Regular</item>
+        <item>Medium</item>
+        <item>Flawless</item>
+    </string-array>
+
+</resources>

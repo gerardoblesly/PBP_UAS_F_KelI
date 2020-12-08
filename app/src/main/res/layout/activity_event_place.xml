@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_select_plan"
+            android:fontFamily="serif"
+            android:layout_marginBottom="@dimen/size12dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/text20sp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/place_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+</layout>

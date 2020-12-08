@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="carouselItem"
+            type="com.gerardoleonel.projectuts_eventorganizer.fragment.home.CarouselItem" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size250dp"
+            android:src="@{carouselItem.carouselBackground}"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_margin="@dimen/size30dp"
+            android:contentDescription="@string/image_error"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{carouselItem.carouselDescription}"
+            android:layout_alignBottom="@+id/img"
+            android:layout_centerVertical="true"
+            android:textColor="#29323b"
+            android:textSize="@dimen/text20sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:background="@color/white"
+            android:alpha="0.5"
+            android:textStyle="italic"
+            android:layout_margin="@dimen/size30dp"
+            tools:text="Testt"
+            />
+
+    </RelativeLayout>
+
+</layout>

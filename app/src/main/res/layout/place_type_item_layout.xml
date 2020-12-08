@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="eventPlace"
+            type="com.gerardoleonel.projectuts_eventorganizer.db.entity.EventPlace" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/place_cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size16dp"
+        app:cardElevation="@dimen/size4dp"
+        app:cardCornerRadius="@dimen/size8dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size8dp"
+            android:textSize="@dimen/text20sp"
+            tools:text="Up to 100 edited photos"
+            android:textColor="@color/colorBlack"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/size12dp"
+                android:background="@color/mainColor"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_start_from"
+                    android:textSize="@dimen/text20sp"
+                    android:gravity="end"
+                    android:textColor="@color/colorBlack"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@{eventPlace.placeName}"
+                        tools:text="Regular"
+                        android:textSize="@dimen/text32sp"
+                        android:textColor="@color/colorBlack"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:layout_gravity="center"
+                        android:text="@{eventPlace.placeDescription}"
+                        tools:text="Rp. 17.000.000"
+                        android:textSize="@dimen/text16sp"
+                        android:textColor="@color/colorBlack"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</layout>

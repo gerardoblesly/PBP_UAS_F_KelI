@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.profile.ToDoList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size20dp"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvAnnouncement"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnBackToDoList"
+                android:layout_width="@dimen/size100dp"
+                android:layout_height="wrap_content"
+                android:text="BACK"
+                android:textColor="@color/colorPrimary"
+                android:elevation="@dimen/size20dp"
+                android:backgroundTint="@color/white"
+                android:layout_marginEnd="@dimen/text10sp"
+                />
+
+            <Button
+                android:id="@+id/btnAddToDoList"
+                android:layout_width="@dimen/size200dp"
+                android:layout_height="wrap_content"
+                android:text="ADD TO DO LIST"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

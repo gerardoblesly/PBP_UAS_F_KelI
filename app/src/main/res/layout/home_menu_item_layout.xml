@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="menuItem"
+            type="com.gerardoleonel.projectuts_eventorganizer.HomeMenuItem" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeMenuItemLayout"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/size64dp"
+            android:layout_height="@dimen/size64dp"
+            android:layout_gravity="center"
+            android:src="@{menuItem.menuIcon}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{menuItem.menuTitle}"
+            android:layout_marginTop="@dimen/size4dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="@font/proximanovaregular"
+            tools:text="Attendance asdfasdf" />
+
+    </LinearLayout>
+
+</layout>
