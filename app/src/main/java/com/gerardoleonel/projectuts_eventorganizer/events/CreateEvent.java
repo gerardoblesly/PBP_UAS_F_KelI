@@ -96,10 +96,28 @@ public class CreateEvent extends AppCompatActivity {
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                createEvent();
+                if(eventTypeDropDown.getText().toString().equalsIgnoreCase("") || eventTypeDropDown==null)
+                {
+                    Toast.makeText(CreateEvent.this, "Event Type must be filled", Toast.LENGTH_SHORT).show();
+                }
+                else if(eventPlaceDropDown.getText().toString().equalsIgnoreCase("") || eventPlaceDropDown==null)
+                {
+                    Toast.makeText(CreateEvent.this, "Event Place must be filled", Toast.LENGTH_SHORT).show();
+                }
+                else if(eventPackageDropDown.getText().toString().equalsIgnoreCase("") || eventPackageDropDown==null)
+                {
+                    Toast.makeText(CreateEvent.this, "Event Package must be filled", Toast.LENGTH_SHORT).show();
+                }
+                else if(description.getText().toString().equalsIgnoreCase("") || description==null)
+                {
+                    Toast.makeText(CreateEvent.this, "Description must be filled", Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    createEvent();
+                }
             }
         });
-
     }
 
     public void createEvent()

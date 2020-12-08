@@ -54,7 +54,7 @@ public class EventTypeActivity extends AppCompatActivity {
 
         List<EventType> events = new ArrayList<>();
         events.add(new EventType(UUID.randomUUID().toString(), "https://www.nymetroparents.com/columnpic2/stress-free-birthdays.jpg", "Birthday"));
-        events.add(new EventType(UUID.randomUUID().toString(), "https://lh3.googleusercontent.com/proxy/1_CZE9K1bGyHbodMausV3nhEB6IFjxLCakMM1CGLs7LwthogqnfUc5AZ16YPEIRdvfZsA5sJIHyEx4dMoqigVqaMSmGnzbnhGc8069J0Qr6NahSbTsRTQZifNM4o99bAz6OAHxpQaKE", "Pre-Wedding"));
+        events.add(new EventType(UUID.randomUUID().toString(), "https://cdn0-production-images-kly.akamaized.net/_rRpd2RDpqJslWJwQzZLxznXVZQ=/640x640/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1835198/original/072061000_1516181691-1702731.jpg", "Pre-Wedding"));
         events.add(new EventType(UUID.randomUUID().toString(), "https://familybuildersok.org/wp-content/uploads/2019/02/happy-family.jpg", "Family"));
         events.add(new EventType(UUID.randomUUID().toString(), "https://i.insider.com/5d24ab4d21a86114000e6df5?width=1100&format=jpeg&auto=webp", "Graduation"));
         events.add(new EventType(UUID.randomUUID().toString(), "https://www.weddingforward.com/wp-content/uploads/2017/05/wedding-proposal-ideas-man-propose-a-woman-at-the-beach-featured.jpg", "Proposal"));

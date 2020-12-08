@@ -1,7 +1,9 @@
 package com.gerardoleonel.projectuts_eventorganizer.fragment.history;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -80,8 +82,29 @@ public class AdapterHistory extends RecyclerView.Adapter<AdapterHistory.HistoryV
             @Override
             public void onClick(View view) {
                 eventIdTemp = event.getId();
-                System.out.println("VICTOR :" +eventIdTemp);
-                deleteEvent();
+
+                AlertDialog.Builder builder1 = new AlertDialog.Builder(context);
+                builder1.setMessage("Are you sure want to delete this event? ");
+                builder1.setCancelable(true);
+
+                builder1.setPositiveButton(
+                        "Yes",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                deleteEvent();
+                            }
+                        });
+
+                builder1.setNegativeButton(
+                        "No",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+                AlertDialog alert11 = builder1.create();
+                alert11.show();
             }
         });
     }
